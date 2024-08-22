@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f0ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+.container {
+  background: linear-gradient(145deg, #e0dbff, #f6f3ff);
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+  width: 360px;
+  box-shadow: 20px 20px 60px #ccc8e8, -20px -20px 60px #ffffff;
+}
+
+/* Heading */
+h2 {
+  font-size: 1.8rem;
+  color: #5a3ea8;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input Fields */
+.amount input {
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: #f8f5ff;
+  box-shadow: inset 5px 5px 10px #ccc8e8, inset -5px -5px 10px #ffffff;
+  margin-bottom: 1.5rem;
+  color: #6a4ca5;
+}
+
+/* Dropdown Section */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.dropdown i {
+  font-size: 2rem;
+  color: #6a4ca5;
+}
+
+/* Select Containers */
+.select-container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #f8f5ff;
+  box-shadow: inset 5px 5px 10px #ccc8e8, inset -5px -5px 10px #ffffff;
+}
+
+.select-container img {
+  max-width: 24px;
+  margin-right: 0.75rem;
+}
+
+.select-container select {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #6a4ca5;
+  cursor: pointer;
+  appearance: none;
+}
+
+/* Exchange Rate Message */
+.msg {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #5a3ea8;
+  margin-bottom: 2rem;
+}
+
+/* Button */
+form button {
+  height: 3.5rem;
+  background: linear-gradient(145deg, #e0dbff, #f6f3ff);
+  color: #5a3ea8;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #ccc8e8, -5px -5px 10px #ffffff;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: linear-gradient(145deg, #f6f3ff, #e0dbff);
+}
+
+form button:active {
+  box-shadow: inset 5px 5px 10px #ccc8e8, inset -5px -5px 10px #ffffff;
+}
